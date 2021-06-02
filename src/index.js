@@ -6,6 +6,7 @@ import { createStore } from "redux";
 import App from "./App";
 import allReducers from "./reducers";
 
+// GLOBAL STORE ...
 const store = createStore(allReducers)
 
 const rootElement = document.getElementById("root");

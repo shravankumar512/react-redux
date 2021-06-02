@@ -4,7 +4,10 @@ import "./styles.css";
 
 export default function App() {
 
+  // DISPLAY IN TO THE DOM
   const counter = useSelector(state => state.counter)
+
+  // DISPATCH ACTIONS...
   const dispatch = useDispatch()
 
   return (
