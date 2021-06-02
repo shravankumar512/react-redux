@@ -1,7 +1,8 @@
-// ACTIONS ...
-export const increment = () => {
+//* ACTIONS ...
+export const increment = (value) => {
     return {
-        type: 'INCREMENT'
+        type: 'INCREMENT',
+        value: value
     }
 }
 
